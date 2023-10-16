@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dogshouseservice.API", "Dogshouseservice.API\Dogshouseservice.API.csproj", "{1BD11CC5-8952-433C-AF86-E74CCCD544AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BD11CC5-8952-433C-AF86-E74CCCD544AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD11CC5-8952-433C-AF86-E74CCCD544AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD11CC5-8952-433C-AF86-E74CCCD544AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD11CC5-8952-433C-AF86-E74CCCD544AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0A92762-319C-4DE2-8D15-56C714E0660B}
+	EndGlobalSection
+EndGlobal
