@@ -4,11 +4,13 @@ using Dogshouseservice.API.Models.Domain;
 using Dogshouseservice.API.Models.DTO;
 using Dogshouseservice.API.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace Dogshouseservice.API.Controllers
 {
     [Route("api")]
     [ApiController]
+    [EnableRateLimiting("FixedWindowPolicy")]
     public class DogsController : ControllerBase
     {
         private readonly IDogRepository _dogRepository;
