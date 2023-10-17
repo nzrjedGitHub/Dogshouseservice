@@ -21,11 +21,6 @@ namespace Dogshouseservice.API.Repositories.DogRepository
             return dog;
         }
 
-        public async Task<List<Dog>> GetAllAsync()
-        {
-            return await _ctx.Dogs.ToListAsync();
-        }
-
         public async Task<List<Dog>> GetAllAsync(
             string? attribute = null, string order = "asc",
             int pageNumber = 1, int pageSize = 1000)
